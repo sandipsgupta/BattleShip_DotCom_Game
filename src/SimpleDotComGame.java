@@ -45,7 +45,7 @@ public class SimpleDotComGame {
         }
     }
 
-   // String testResult = "failed";
+
 
 /*}   if (result.equals("hit")){
             testResult ="passed";
@@ -74,7 +74,7 @@ public class SimpleDotComGame {
             if (result.equals("kill")) {
                 isAlive = false;
                //1 System.out.println("\n");
-                System.out.println("\n\n" + "You took " + numOfGuesses + " guesses, to" + "destroy the DotCom");
+                System.out.println("\n" + "You took " + numOfGuesses + " guesses, to" + "destroy the DotCom");
             }
         }
     }
