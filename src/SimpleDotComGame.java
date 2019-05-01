@@ -11,22 +11,22 @@ public class SimpleDotComGame {
 
 
         SimpleDotCom theDotCom = new SimpleDotCom();
-//
+
         SimpleDotCom.setLocationCells((ArrayList<String>)Arrays.stream(locations).boxed().map(String::valueOf).collect(Collectors.toList()));
-        //int randomNum = (int) (Math.random() * 5); //Instead of predefined no. choose random no for locations
+        int randomNum = (int) (Math.random() * 5); //Instead of predefined no. choose random no for locations
 
 
 
-       // int[] locations = {randomNum, randomNum + 1, randomNum + 2};
+       int[] locations = {randomNum, randomNum + 1, randomNum + 2};
 
-        // int[] locations = {4, 5, 6};
-        //theDotCom.setLocationcells(locations);
+        int[] locations = {4, 5, 6};
+        theDotCom.setLocationcells(locations);
 
         theDotCom.setLocationCells();
 
 
         boolean isAlive = true;
-        //for (numofGuesses = 1; numofGuesses < 9; numofGuesses++) {
+        for (numofGuesses = 1; numofGuesses < 9; numofGuesses++) {
 
             while (isAlive == true) {
 
